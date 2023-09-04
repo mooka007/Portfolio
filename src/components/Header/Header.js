@@ -4,10 +4,10 @@ export default function Header() {
   return (
     <section className="header">
       <header>
-        <h1 className="header-title text-figma"> Hello.</h1>
+        <h1 className="header-title text-figma">Hello.</h1>
         <div className="header-title-box">
           <p className="text-figma m-0">
-            I am a full stack js developer with experience in Game development
+            Mern stack developer
           </p>
         </div>
       </header>

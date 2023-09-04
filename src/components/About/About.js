@@ -42,7 +42,7 @@ export const About = () => {
               </ul>
             </li>
           </ul>
-          <ul className="tech-stack">
+          {/* <ul className="tech-stack">
             <p className=" text-center">
               <p className="text-figma m-0">
                 Game development
@@ -55,7 +55,7 @@ export const About = () => {
             <li>Adobe Illustrator</li>
             <li>Adobe Photoshop</li>
             <li>Audacity</li>
-          </ul>
+          </ul> */}
         </div>
         <div className="d-flex justify-content-around">
           <ul className="tech-stack">
@@ -67,8 +67,8 @@ export const About = () => {
             <li>Git/GitHub</li>
             <li>Firebase</li>
             <li>MongoDb</li>
-            <li>Android Studio</li>
-            <li>PostgreSQL</li>
+            {/* <li>Android Studio</li> */}
+            {/* <li>PostgreSQL</li> */}
             <li>MySql</li>
             <li>Xampp</li>
             <li>Vs Code</li>
@@ -88,11 +88,11 @@ export const About = () => {
             <li>Tailwind</li>
             <li>JavaScript</li>
             <li>PHP</li>
-            <li>Kotlin</li>
+            {/* <li>Kotlin</li> */}
             <li>Python</li>
             <li>C Language</li>
-            <li>C# </li>
-            <li>C++</li>
+            {/* <li>C# </li> */}
+            {/* <li>C++</li> */}
           </ul>
         </div>
         {/* <a className="about-see" href="#">See more {"->"} </a> */}
