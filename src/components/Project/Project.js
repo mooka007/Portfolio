@@ -5,7 +5,7 @@ import ImageTemp from "../../assets/images/prev-project-temp.png";
 import WayHome from "../../assets/images/WayHome.jpg";
 import LastGame from "../../assets/images/LastGame.jpg";
 import Bouncy from "../../assets/images/Bouncy.webp";
-import TTT from "../../assets/images/TTT.jpg";
+import TTT from "../../assets/images/TTT.PNG";
 import PlayStore from "../../assets/images/google-play.png";
 import Drive from "../../assets/images/google-drive.png";
 import Apk from "../../assets/images/apk.png";
@@ -25,12 +25,13 @@ function Project() {
         <span className="purple-smoke-text"> Visit my latest projects </span>{" "}
       </p>
       <div className="resp">
+        {/*  */}
         <section id="projects" className="container container-project">
           <p className="purple-smoke-text text-center m-0"> Web Applications </p>{" "}
 
           {/* Application dashboard and login */}
 
-          {/* TTT */}
+          {/* Simple bank */}
           <div className="project-header">
             <div className="project-box">
               <span className="white-text">Simple Bank</span>
@@ -50,26 +51,26 @@ function Project() {
                   src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
                   alt="GitHub"
                 />{" "}
-                <a href="https://github.com/Noulamin/Simple-Bank-projet-file-rouge" target="_blank" className="text-figma">Github</a>.
+                <a href="https://github.com/mooka007/BankAccount" target="_blank" className="text-figma">Github</a>.
               </p>
               <div className="details-stack">
                 <span className="white-text">Technologies</span>
                 <ul className="gray-text">
                   <li>React js</li>
-                  <li>React Native</li>
+                  <li>Tailwind</li>
                   <li>Express js</li>
                   <li>MongoDb</li>
                 </ul>
               </div>
-              <p className="gray-text">
+              {/* <p className="gray-text">
                 Check full {" "}
                 <img
                   className="mb-1 little-icon-2"
                   src={Youtube}
                   alt="GitHub"
-                />{" "}
-                <a href="https://youtu.be/2tulYce-vYo" target="_blank" className="text-figma">Youtube</a> video.
-              </p>
+                />{" "} */}
+                {/* <a href="https://youtu.be/2tulYce-vYo" target="_blank" className="text-figma">Youtube</a> video. */}
+              {/* </p> */}
               <p className="gray-text">
                 A little star on {" "}
                 <img
@@ -77,7 +78,7 @@ function Project() {
                   src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
                   alt="GitHub"
                 />{" "}
-                <a href="https://github.com/Noulamin/Simple-Bank-projet-file-rouge" target="_blank" className="white-text text-figma">Github</a>.
+                <a href="https://github.com/mooka007/BankAccount" target="_blank" className="white-text text-figma">Github</a>.
               </p>
               <p className="gray-text">
                 Release date : {" "} <p className="text-figma">Mar 30, 2023</p>
@@ -85,8 +86,8 @@ function Project() {
             </div>
           </div>
 
-          {/* TTT */}
-          <div className="project-header">
+          {/* Portfolio */}
+          {/* <div className="project-header">
             <div className="project-box">
               <span className="white-text">Portfolio</span>
               <p className="gray-text text-box">
@@ -105,7 +106,7 @@ function Project() {
                   src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
                   alt="GitHub"
                 />{" "}
-                <a href="https://github.com/Noulamin/Portfolio" target="_blank" className="text-figma">Github</a>.
+                <a href="" target="_blank" className="text-figma">Github</a>.
               </p>
               <div className="details-stack">
                 <span className="white-text">Technologies</span>
@@ -129,13 +130,13 @@ function Project() {
                   src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
                   alt="GitHub"
                 />{" "}
-                <a href="https://github.com/Noulamin/Portfolio" target="_blank" className="white-text text-figma">Github</a>.
+                <a href="" target="_blank" className="white-text text-figma">Github</a>.
               </p>
               <p className="gray-text">
                 Release date : {" "} <p className="text-figma">Jan 05, 2023</p>
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* TTT */}
           <div className="project-header">
@@ -157,7 +158,7 @@ function Project() {
                   src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
                   alt="GitHub"
                 />{" "}
-                <a href="https://github.com/Noulamin/Jeu-Tic-Tac-Toe-simple-en-javascript" target="_blank" className="text-figma">Github</a>.
+                <a href="https://github.com/mooka007/JS-Projects/tree/master/tictactoe" target="_blank" className="text-figma">Github</a>.
               </p>
               <div className="details-stack">
                 <span className="white-text">Technologies</span>
@@ -174,7 +175,7 @@ function Project() {
                   src={Visible}
                   alt="GitHub"
                 />{" "}
-                <a href="https://noulamin.github.io/Jeu-Tic-Tac-Toe-simple-en-javascript/" target="_blank" className="text-figma">Live</a> view.
+                <a href="https://github.com/mooka007/JS-Projects/tree/master/tictactoe" target="_blank" className="text-figma">Live</a> view.
               </p>
               <p className="gray-text">
                 A little star on {" "}
@@ -191,12 +192,13 @@ function Project() {
             </div>
           </div>
 
-          {/* TTT */}
+          {/* Donate */}
           <div className="project-header">
             <div className="project-box">
-              <span className="white-text">E-learning Application</span>
+              <span className="white-text">Donate</span>
               <p className="gray-text text-box">
-                this application is often used to deliver online courses, lectures, and other educational resources to students, employees, or other learners.
+              A user-friendly website that connects individuals looking to donate clothes, materials, or unwanted items with those in need,
+              facilitating easy and impactful contributions to make a positive difference in people's lives.
               </p>
             </div>
             <img className="project-line" src={Line} alt="abajo" />
@@ -211,15 +213,15 @@ function Project() {
                   src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
                   alt="GitHub"
                 />{" "}
-                <a href="https://github.com/Noulamin/E-LEARNING-APPLICATION-V1.0" target="_blank" className="text-figma">Github</a>.
+                <a href="https://github.com/mooka007/DonateVer0.1" target="_blank" className="text-figma">Github</a>.
               </p>
               <div className="details-stack">
                 <span className="white-text">Technologies</span>
                 <ul className="gray-text">
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>Bootstrap</li>
+                  <li>React</li>
+                  <li>Mui</li>
                   <li>JavaScript</li>
+                  <li>ExpressJs</li>
                 </ul>
               </div>
               <p className="gray-text">
@@ -229,7 +231,7 @@ function Project() {
                   src={Visible}
                   alt="GitHub"
                 />{" "}
-                <a href="https://noulamin.github.io/E-LEARNING-APPLICATION-V1.0/" target="_blank" className="text-figma">Live</a> view.
+                <a href="https://github.com/mooka007/DonateVer0.1" target="_blank" className="text-figma">Live</a> view.
               </p>
               <p className="gray-text">
                 A little star on {" "}
@@ -238,13 +240,14 @@ function Project() {
                   src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
                   alt="GitHub"
                 />{" "}
-                <a href="https://github.com/Noulamin/E-LEARNING-APPLICATION-V1.0" target="_blank" className="white-text text-figma">Github</a>.
+                <a href="https://github.com/mooka007/DonateVer0.1" target="_blank" className="white-text text-figma">Github</a>.
               </p>
               <p className="gray-text">
                 Release date : {" "} <p className="text-figma">Jan 16, 2022</p>
               </p>
             </div>
           </div>
+          {/* sEE MORE */}
           <div className="container-footer">
             <p>
               See more on{" "}
