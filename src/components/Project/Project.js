@@ -263,14 +263,14 @@ function Project() {
 
         {/* Games */}
         <section id="projects" className="col container container-project">
-          <p className="purple-smoke-text text-center m-0"> Games </p>{" "}
+          <p className="purple-smoke-text text-center m-0"> Alx - Software Engineer </p>{" "}
           <div>
+            {/* first alx */}
             <div className="project-header">
               <div className="project-box">
-                <span className="white-text">WayHome</span>
+                <span className="white-text">printf</span>
                 <p className="gray-text text-box">
-                  Offline indie game, a kid who is trying to get out in
-                  a dark world to find peace.
+                  A versatile function in programming languages that outputs formatted text to the console or other output streams
                 </p>
               </div>
               <img className="project-line" src={Line} alt="abajo" />
@@ -281,18 +281,16 @@ function Project() {
                 <p className="gray-text">
                   See this Project on{" "}
                   <img
-                    className="mb-1 little-icon-2"
-                    src={Drive}
-                    alt="GitHub"
-                  />{" "}
-                  <a href="https://drive.google.com/drive/folders/1TYEjxqnBHC92T15KWbFRXaFO0YyKGnU6?usp=share_link" target="_blank" className="text-figma">Google Drive</a>.
+                  className="mb-1"
+                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                  alt="GitHub"
+                />{" "}
+                  <a href="https://github.com/mooka007/_printf" target="_blank" className="text-figma">Github</a>.
                 </p>
                 <div className="details-stack">
                   <span className="white-text">Technologies</span>
                   <ul className="gray-text">
-                    <li>Unity Engine</li>
-                    <li>Blender</li>
-                    <li>C# Language</li>
+                    <li>C Language</li>
                   </ul>
                 </div>
                 <p className="gray-text">
@@ -302,20 +300,22 @@ function Project() {
                     src={Youtube}
                     alt="GitHub"
                   />{" "}
-                  <a href="https://youtu.be/L7TkJUii_SI" target="_blank" className="text-figma">Youtube</a> video.
+                  <a href="" target="_blank" className="text-figma">Youtube</a> video.
                 </p>
                 <p className="gray-text">
-                  Release date : {" "} <p className="text-figma">May 19, 2021</p>
+                  Release date : {" "} <p className="text-figma">Apr 19, 2023</p>
                 </p>
               </div>
             </div>
 
+            {/* AirBnb - Console */}
             <div className="project-header">
               <div className="project-box">
-                <span className="white-text">Bouncy: Draw The Line</span>
+                <span className="white-text">AirBnb - Console</span>
                 <p className="gray-text text-box">
-                  Offline puzzle game, Try to find the best way to complete each level.
-                  You can come up with your own solution so be creative and don't be afraid to think out of the box!
+                  The AirBnB Clone Console is a Python-based command-line interface (CLI) that allows you to manage AirBnB objects,
+                  such as users, states, cities, places, and more. With this console, you can perform various operations on these objects,
+                  including creating, retrieving, updating, and deleting them
                 </p>
               </div>
               <img className="project-line" src={Line} alt="abajo" />
@@ -330,19 +330,16 @@ function Project() {
                     src={PlayStore}
                     alt="GitHub"
                   />{" "}
-                  <a href="https://play.google.com/store/apps/details?id=com.noulamin.bouncy" target="_blank" className="text-figma">Google Play Store</a>.
+                  <a href="https://github.com/mooka007/AirBnB_clone" target="_blank" className="text-figma">Github</a>.
                 </p>
                 <div className="details-stack">
                   <span className="white-text">Technologies</span>
                   <ul className="gray-text">
-                    <li>Unity Engine</li>
-                    <li>C# Language</li>
-                    <li>Adobe Illustrator</li>
-                    <li>Adobe Photoshop</li>
+                    <li>Python</li>
                   </ul>
                 </div>
                 <p className="gray-text">
-                  Release date : {" "} <p className="text-figma">Aug 10, 2022</p>
+                  Release date : {" "} <p className="text-figma">Aug 7, 2023</p>
                 </p>
               </div>
             </div>
