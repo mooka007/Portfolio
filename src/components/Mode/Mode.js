@@ -1,6 +1,8 @@
 import "./Mode.css";
 import { RiSunFill, RiMoonFill } from "react-icons/ri";
-import linkedin from "../../assets/linkedin.jpg"
+import LinkedIn from "../../assets/images/linkedin.jpg";
+
+
 export default function Mode({ handleModeChange, setMode }) {
   return (
     <section className=" container-mode">
@@ -8,11 +10,10 @@ export default function Mode({ handleModeChange, setMode }) {
         <ul>
           <li>
             <a href="#projects" >Projects</a>
-            
           </li>
           <li>
-            <a target="_blank" href="https://github.com/mooka007">
-              <span class="link-decoration">Github</span>
+            <a target="_blank" href="https://github.com/Noulamin">
+              <span class="link-decoration">GitHub</span>
               <span class="icon-change">
                 <img
                   src="https://cdn.sanity.io/images/tljndwv6/production/182744b0662c24bb7d37846566bdb7ebee3470d6-15x15.svg"
@@ -26,7 +27,7 @@ export default function Mode({ handleModeChange, setMode }) {
             </a>
           </li>
           <li>
-          <a target="_blank" href="https://github.com/mooka007">
+            <a target="_blank" href="https://www.linkedin.com/in/noulamin/">
               <span class="link-decoration">LinkedIn</span>
               <span class="icon-change">
                 <img
@@ -34,7 +35,7 @@ export default function Mode({ handleModeChange, setMode }) {
                   alt="External Link"
                 />
                 <img
-                  src={linkedin}
+                  src={LinkedIn}
                   alt="GitHub"
                 />
               </span>

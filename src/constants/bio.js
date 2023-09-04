@@ -2,8 +2,9 @@ export const BIO = [
   {
     year: 2020,
     title: {
+      where: "Freelance",
       name: "Seplom",
-      cargo: "Graphic Designer",
+      cargo: "Game Developer",
     },
     description:
       "Development of ads, covers, and social media using design methodologies such as Design Thinking",
@@ -12,8 +13,9 @@ export const BIO = [
   {
     year: 2021,
     title: {
+      where: "Freelance",
       name: "Seplom",
-      cargo: "User Inferface Design",
+      cargo: "Graphic Designer",
     },
     description: " Working with Figma and Adobe XD",
     details: [
@@ -24,8 +26,9 @@ export const BIO = [
   {
     year: 2022,
     title: {
+      where: "Freelance",
       name: "Fiver",
-      cargo: "Frontend Develooper",
+      cargo: "Full stack js developer",
     },
     description:
       "Freelance projects with Technologies like Nextjs, Reactjs, Redux and Gatsby",

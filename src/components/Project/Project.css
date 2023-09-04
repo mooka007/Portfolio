@@ -1,5 +1,5 @@
 .container-project {
-  margin-top: 8rem;
+  margin-top: 2rem;
 }
 
 .project-header {
@@ -46,13 +46,11 @@
 
 .text-figma:hover {
   transition: 350ms;
-  background: linear-gradient(
-    90deg,
-    #f24e1e 2.73%,
-    #a259ff 37.68%,
-    #13c5c6 71.63%,
-    #0acf83 100%
-  );
+  background: linear-gradient(90deg,
+      #f24e1e 2.73%,
+      #a259ff 37.68%,
+      #13c5c6 71.63%,
+      #0acf83 100%);
   background-size: 400vh;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -69,13 +67,59 @@
 }
 
 .details-stack {
-  margin: 3rem 1rem;
+  margin: 2rem 1rem;
+}
+
+.resp {
+  display: flex;
+}
+
+.project-picture{
+  max-width: 224px;
+  border-radius: 11px;
+}
+
+.project-picture-2{
+  border-radius: 11px;
+  width: 224px;
+  height: 230px;
+}
+
+.project-picture-3{
+  border-radius: 11px;
+  width: 224px;
+}
+
+.little-icon{
+  max-width: 21px;
+}
+
+.little-icon-2{
+  max-width: 18px;
+}
+
+.container-footer {
+  padding: 2rem 0;
+  color: var(--white-smoke-color);
+  text-align: center;
+}
+
+p{
+  margin-bottom: 4px;
+}
+
+
+@media (max-width: 840px) {
+  .resp {
+    display: block;
+  }
 }
 
 @media (max-width: 425px) {
   .project-details {
     justify-content: center;
   }
+
   .project-header {
     justify-content: center;
   }
