@@ -1,21 +1,21 @@
 import React from "react";
 import "./Project.css";
 import Line from "../../assets/images/line-purple.svg";
-import ImageTemp from "../../assets/images/prev-project-temp.png";
-import WayHome from "../../assets/images/WayHome.jpg";
-import LastGame from "../../assets/images/LastGame.jpg";
-import Bouncy from "../../assets/images/Bouncy.webp";
+// import ImageTemp from "../../assets/images/prev-project-temp.png";
+// import WayHome from "../../assets/images/WayHome.jpg";
+// import LastGame from "../../assets/images/LastGame.jpg";
+// import Bouncy from "../../assets/images/Bouncy.webp";
 import TTT from "../../assets/images/TTT.PNG";
-import PlayStore from "../../assets/images/google-play.png";
-import Drive from "../../assets/images/google-drive.png";
-import Apk from "../../assets/images/apk.png";
+// import PlayStore from "../../assets/images/google-play.png";
+// import Drive from "../../assets/images/google-drive.png";
+// import Apk from "../../assets/images/apk.png";
 import Youtube from "../../assets/images/youtube.png";
 import Visible from "../../assets/images/visible.png";
-import PortfolioPic from "../../assets/images/portfolio.png";
+// import PortfolioPic from "../../assets/images/portfolio.png";
 import AppLogin from "../../assets/images/App-Login.jpg";
 import AppLogin2 from "../../assets/images/bank.png";
-import StormShotPic from "../../assets/images/StormShot.png";
-import BlenderPic from "../../assets/images/Blender.png";
+// import StormShotPic from "../../assets/images/StormShot.png";
+// import BlenderPic from "../../assets/images/Blender.png";
 
 function Project() {
   return (
@@ -248,7 +248,7 @@ function Project() {
             </div>
           </div>
           {/* sEE MORE */}
-          <div className="container-footer">
+          {/* <div className="container-footer">
             <p>
               See more on{" "}
               <img
@@ -258,7 +258,7 @@ function Project() {
               />{" "}
               <a href="https://github.com/Noulamin?tab=repositories" target="_blank" className="white-text text-figma">Github</a>
             </p>
-          </div>
+          </div> */}
         </section>
 
         {/* Games */}
@@ -276,7 +276,7 @@ function Project() {
               <img className="project-line" src={Line} alt="abajo" />
             </div>
             <div className="project-details">
-              <img src={WayHome} className="project-picture" alt="Project React Simple Portfolio" />
+              {/* <img src={WayHome} className="project-picture" alt="Project React Simple Portfolio" /> */}
               <div className="details-left">
                 <p className="gray-text">
                   See this Project on{" "}
@@ -321,15 +321,15 @@ function Project() {
               <img className="project-line" src={Line} alt="abajo" />
             </div>
             <div className="project-details">
-              <img src={Bouncy} className="project-picture-2" alt="Project React Simple Portfolio" />
+              {/* <img src={Bouncy} className="project-picture-2" alt="Project React Simple Portfolio" /> */}
               <div className="details-left">
                 <p className="gray-text">
                   See this Game on{" "}
                   <img
-                    className="mb-1 little-icon"
-                    src={PlayStore}
-                    alt="GitHub"
-                  />{" "}
+                  className="mb-1"
+                  src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
+                  alt="GitHub"
+                />{" "}
                   <a href="https://github.com/mooka007/AirBnB_clone" target="_blank" className="text-figma">Github</a>.
                 </p>
                 <div className="details-stack">
@@ -343,155 +343,8 @@ function Project() {
                 </p>
               </div>
             </div>
-
-            <div className="project-header">
-              <div className="project-box">
-                <span className="white-text">StormShot</span>
-                <p className="gray-text text-box">
-                  An offline shooting game with challenging puzzle levels.
-                </p>
-              </div>
-              <img className="project-line" src={Line} alt="abajo" />
-            </div>
-            <div className="project-details">
-              <img src={StormShotPic} className="project-picture-3" alt="Project React Simple Portfolio" />
-              <div className="details-left">
-                <p className="gray-text">
-                  See this Game on{" "}
-                  <img
-                    className="mb-1 little-icon"
-                    src="https://cdn.sanity.io/images/tljndwv6/production/5fa75a7c756062d52b4f0d9244759279dd216201-15x15.svg"
-                    alt="GitHub"
-                  />{" "}
-                  <a href="https://github.com/Noulamin/StormShot-Game" target="_blank" className="text-figma">Github</a>.
-                </p>
-                <div className="details-stack">
-                  <span className="white-text">Technologies</span>
-                  <ul className="gray-text">
-                    <li>Unity Engine</li>
-                    <li>C# Language</li>
-                    <li>Adobe Illustrator</li>
-                    <li>Adobe Photoshop</li>
-                  </ul>
-                </div>
-                <div className="details-stack">
-                  <span className="white-text">Game versions</span>
-                  <ul className="gray-text">
-                    <li>
-                      <p className="gray-text">
-                        Check v1 {" "}
-                        <img
-                          className="mb-1 little-icon-2"
-                          src={Youtube}
-                          alt="GitHub"
-                        />{" "}
-                        <a href="https://www.youtube.com/watch?v=-IZs-krerQ4" target="_blank" className="text-figma">Youtube</a> video.
-                      </p>
-                    </li>
-                    <li>
-                      <p className="gray-text">
-                        Check v2 {" "}
-                        <img
-                          className="mb-1 little-icon-2"
-                          src={Youtube}
-                          alt="GitHub"
-                        />{" "}
-                        <a href="https://youtu.be/KT3ZiP0e4EQ" target="_blank" className="text-figma">Youtube</a> video.
-                      </p>
-                    </li>
-                    <li>
-                      <p className="gray-text">
-                        Check v3 {" "}
-                        <img
-                          className="mb-1 little-icon-2"
-                          src={Youtube}
-                          alt="GitHub"
-                        />{" "}
-                        <a href="https://youtu.be/ek4XAWV3-yM" target="_blank" className="text-figma">Youtube</a> video.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-                <p className="gray-text">
-                  Release date : {" "} <p className="text-figma">Nov 27, 2022</p>
-                </p>
-              </div>
-            </div>
-
-            <div className="project-header">
-              <div className="project-box">
-                <span className="white-text">LastGame</span>
-                <p className="gray-text text-box">
-                  Online shooting game, LastGame is a game
-                  of survival, many players fight each other in spaces for being the last
-                  survivor.
-                </p>
-              </div>
-              <img className="project-line" src={Line} alt="abajo" />
-            </div>
-            <div className="project-details">
-              <img src={LastGame} className="project-picture" alt="Project React Simple Portfolio" />
-              <div className="details-left">
-                <p className="gray-text">
-                  See this Project on{" "}
-                  <img
-                    className="mb-1 little-icon-2"
-                    src={Drive}
-                    alt="GitHub"
-                  />{" "}
-                  <a href="https://drive.google.com/drive/folders/1FbdDT9BP3pAsdVGRqFfjg5vyzCSk0aX-?usp=share_link" target="_blank" className="text-figma">Google Drive</a>.
-                </p>
-                <div className="details-stack">
-                  <span className="white-text">Technologies</span>
-                  <ul className="gray-text">
-                    <li>Unity Engine</li>
-                    <li>Photon Engine</li>
-                    <li>Firebase</li>
-                    <li>C# Language</li>
-                  </ul>
-                </div>
-                <p className="gray-text">
-                  Check full {" "}
-                  <img
-                    className="mb-1 little-icon-2"
-                    src={Youtube}
-                    alt="GitHub"
-                  />{" "}
-                  <a href="https://youtu.be/qrpXTkEMOm0" target="_blank" className="text-figma">Youtube</a> video.
-                </p>
-                <p className="gray-text">
-                  Check test APK {" "}
-                  <img
-                    className="mb-1 little-icon-2"
-                    src={Apk}
-                    alt="GitHub"
-                  />{" "}
-                  <a href="https://drive.google.com/file/d/1qU2y3HDuWXPw5BTkqBuRgm5DlPczqLsE/view?usp=share_link" target="_blank" className="white-text text-figma">Here</a>.
-                </p>
-                <p className="gray-text">
-                  Release date : {" "} <p className="text-figma">April 02, 2019</p>
-                </p>
-              </div>
-            </div>
-
           </div>
-          <div className="container-footer">
-            <p>
-              See {" "}
-              <img
-                className="mb-1 little-icon-2"
-                src={BlenderPic}
-                alt="GitHub"
-              />{" "}
-              Blender works on{" "}
-              <img
-                className="mb-1 little-icon-2"
-                src={Drive}
-                alt="GitHub"
-              />{" "}
-              <a href="https://drive.google.com/drive/folders/1rN6nSYzrn5Yph1q5mUorN4kVmUmAX15v?usp=share_link" target="_blank" className="white-text text-figma">Google Drive</a>
-            </p>
-          </div>
+          
         </section>
       </div>
     </>
